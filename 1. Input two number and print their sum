@@ -1,0 +1,17 @@
+//You have to take 2 inputs from the user and print their 
+//sum as output
+
+// Input Format - two input
+//Output - one single integer 
+
+#include<stdio.h>
+using namespace std;
+
+int main()
+{
+	int a,b;		//Declaring two variable of datatype int 
+	cin>>a>>b;  	//scanf("%d %d ",&a,&b)
+	int result = a+b;
+	cout<<result;
+
+}
